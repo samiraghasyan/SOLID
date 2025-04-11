@@ -42,11 +42,8 @@ class User
 // Usage example
 $mysqlConnection = new MySqlConnection();
 $user = new User($mysqlConnection);
-$userData = $user->getUserData();
+$usersData = $user->getUserData();
 
 $mariaDbConnection = new MariaDBConnection();
 $user = new User($mariaDbConnection);
-$userData = $user->getUserData();
-
-
-
+$usersData = $user->getUserData();
